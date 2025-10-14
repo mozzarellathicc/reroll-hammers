@@ -1,4 +1,4 @@
----@meta AuthorName-ModName
+---@meta mozzarellathicc-RerollHammers
 local public = {}
 
 -- document whatever you made publicly available to other plugins here
