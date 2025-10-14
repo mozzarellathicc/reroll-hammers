@@ -51,6 +51,6 @@ end
 
 local loader = reload.auto_single()
 
-modutil.once_loaded.game(function()
+modutil.once_loaded.save(function()
 	loader.load(on_ready, on_reload)
 end)
