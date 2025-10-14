@@ -11,3 +11,5 @@ Hammers are integral to a lot of builds in Hades II, and not being able to rerol
 ## Install
 
 - Install using r2modman
+
+![Screenshot of the Hades II Daedalus Hammer selection screen, with the additional option to reroll the boons.](/img/HammerReroll.jpg)
