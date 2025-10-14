@@ -4,19 +4,19 @@ schemaVersion = "0.0.1"
 
 [package]
 namespace = "mozzarellathicc"
-name = "Reroll Hammers"
+name = "Reroll_Hammers"
 versionNumber = "1.0.0"
 description = "Allows rerolling of hammers."
 websiteUrl = "https://github.com/mozzarellathicc/reroll-hammers"
 containsNsfwContent = false
 
 [package.dependencies]
-Hell2Modding-Hell2Modding = "1.0.28"
-SGG_Modding-ENVY = "1.1.0"
-SGG_Modding-Chalk = "2.0.2"
-SGG_Modding-ReLoad = "1.0.1"
+Hell2Modding-Hell2Modding = "1.0.60"
+SGG_Modding-ENVY = "1.2.0"
+SGG_Modding-Chalk = "2.1.1"
+SGG_Modding-ReLoad = "1.0.2"
 SGG_Modding-SJSON = "1.0.0"
-SGG_Modding-ModUtil = "4.0.0"
+SGG_Modding-ModUtil = "4.0.1"
 
 
 [build]

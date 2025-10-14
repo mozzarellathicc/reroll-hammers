@@ -1,6 +1,8 @@
 ---@meta _
 mozzarellathicc_RerollHammers = mozzarellathicc_RerollHammers or {}
 
+import = require
+
 ---@diagnostic disable-next-line: undefined-global
 local mods = rom.mods
 
@@ -18,6 +20,7 @@ _PLUGIN = _PLUGIN
 game = rom.game
 
 ---@module 'game-import'
+---@diagnostic disable-next-line: undefined-global
 import_as_fallback(game)
 
 ---@module 'SGG_Modding-SJSON'
@@ -32,10 +35,12 @@ reload = mods['SGG_Modding-ReLoad']
 
 ---@module 'config'
 config = chalk.auto 'config.lua'
+---@diagnostic disable-next-line: undefined-global
 public.config = config
 
 local function on_ready()
 	if config.enabled == false then return end
+	mod = modutil.mod.Mod.Register(_PLUGIN.guid)
 	
 	import 'Scripts/MetaUpgradeData.lua'
 end
@@ -46,6 +51,6 @@ end
 
 local loader = reload.auto_single()
 
-modutil.once_loaded.save(function()
+modutil.once_loaded.game(function()
 	loader.load(on_ready, on_reload)
 end)
