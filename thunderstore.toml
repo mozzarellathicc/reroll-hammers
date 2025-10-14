@@ -5,7 +5,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "mozzarellathicc"
 name = "Reroll Hammers"
-versionNumber = "0.0.0"
+versionNumber = "1.0.0"
 description = "Allows rerolling of hammers."
 websiteUrl = "https://github.com/mozzarellathicc/reroll-hammers"
 containsNsfwContent = false
