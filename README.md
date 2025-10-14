@@ -1,15 +1,13 @@
-# Mod name
+# Reroll Hammers
 
-Hades II mod allowing to do some super duper thing.
+Allows you to reroll Hammers.
 
-## Features
+Hammers are integral to a lot of builds in Hades II, and not being able to reroll them can get a bit frustrating.
 
-- Wow.
-- Much cool.
-  - Very doge.
+## Configuration
+
+- enabled: Enable or disable the mod.
 
 ## Install
 
-- Do this.
-- Do that.
-  - Nope, not that.
+- Install using r2modman
