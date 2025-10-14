@@ -2,10 +2,6 @@
 
 ## [Unreleased]
 
-## [1.0.3] - 2025-10-14
-### Added
-- Added changes to changelog
-
 ## [1.0.2] - 2025-10-14
 
 ### Fixed
